@@ -27,7 +27,7 @@
    TELEGRAM_TOKEN=ваш_токен_бота
 
 ## Запуск бота:
-1. Перейдите в главную дерикторию bothacks:
+1. Перейдите в главную дерикторию bothacks
 2. Если с windows:
    ```bash
    docker-compose up
