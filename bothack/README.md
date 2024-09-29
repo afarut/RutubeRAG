@@ -20,7 +20,7 @@
    OPERATOR_PASSWORD=ваш_пароль
    TELEGRAM_TOKEN=ваш_токен_бота
 
-## Запуск бота:
+## Запуск бота
 1. Перейдите в главную дерикторию bothacks
 2. Если с windows:
    ```bash
