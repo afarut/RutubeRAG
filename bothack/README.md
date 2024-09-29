@@ -31,9 +31,11 @@
 
 ## Запуск бота:
 1. Перейдите в главную дерикторию bothacks:
-   ```bash ubuntu
-   docker compose up
-   bash
-   ```bash win
+2. Если с windows:
+   ```bash
    docker-compose up
+   bash
+2. Если с unix-подобной системы:
+   ```bash 
+   docker compose up
    bash
