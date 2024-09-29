@@ -18,24 +18,19 @@
 
     Установите зависимости:
 
-    bash
 2. Установите зависимости:
    ```bash
    pip install -r requirements.txt
-    bash
 3. Создайте файл .env и добавьте необходимые переменные окружения:
    ```bash
    OPERATOR_PASSWORD=ваш_пароль
    TELEGRAM_TOKEN=ваш_токен_бота
-    bash
 
 ## Запуск бота:
 1. Перейдите в главную дерикторию bothacks:
 2. Если с windows:
    ```bash
    docker-compose up
-   bash
 2. Если с unix-подобной системы:
    ```bash 
    docker compose up
-   bash
