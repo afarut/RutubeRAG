@@ -19,12 +19,21 @@
     Установите зависимости:
 
     bash
+2. Установите зависимости:
+   ```bash
+   pip install -r requirements.txt
+    bash
+3. Создайте файл .env и добавьте необходимые переменные окружения:
+   ```bash
+   OPERATOR_PASSWORD=ваш_пароль
+   TELEGRAM_TOKEN=ваш_токен_бота
+    bash
 
-pip install -r requirements.txt
-
-Создайте файл .env и добавьте необходимые переменные окружения:
-
-plaintext
-
-OPERATOR_PASSWORD=ваш_пароль
-TELEGRAM_TOKEN=ваш_токен_бота
+## Запуск бота:
+1. Перейдите в главную дерикторию bothacks:
+   ```bash ubuntu
+   docker compose up
+   bash
+   ```bash win
+   docker-compose up
+   bash
