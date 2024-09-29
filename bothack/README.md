@@ -15,13 +15,7 @@
    ```bash
    git clone https://github.com/afarut/RutubeRAG.git
    cd RutubeRAG/bothack
-
-    Установите зависимости:
-
-2. Установите зависимости:
-   ```bash
-   pip install -r requirements.txt
-3. Перейдите в docker-compose.yml и добавьте необходимые переменные окружения:
+2. Перейдите в docker-compose.yml и добавьте необходимые переменные окружения:
    ```bash
    OPERATOR_PASSWORD=ваш_пароль
    TELEGRAM_TOKEN=ваш_токен_бота
